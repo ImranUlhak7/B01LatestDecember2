@@ -1,0 +1,27 @@
+{
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=com.sap.patterson.2410dev.imran&ClientId=d14abafe-a414-4094-b195-87fb27a39334&ServerUrl=https://pten-glb-sam-dev01-dcjebkhz-developer-com-sap-patterso-smt50kvv.cfapps.us10-001.hana.ondemand.com&SapCloudPlatformEndpoint=https://pten-glb-sam-dev01-dcjebkhz-developer-com-sap-patterso-smt50kvv.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=https://pten-glb-sam-dev01-dcjebkhz-developer-com-sap-patterso-smt50kvv.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://pten-glb-sam-dev01-dcjebkhz-developer-com-sap-patterso-smt50kvv.cfapps.us10-001.hana.ondemand.com&TokenUrl=https://pten-glb-sam-dev01-dcjebkhz-developer-com-sap-patterso-smt50kvv.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"CF": {
+		"Target": "https://api.cf.us10-001.hana.ondemand.com",
+		"Organization": "802d99ef-296e-4d43-8ec7-91a53729fc8b",
+		"Space": "f01f69b0-7964-46d7-b6a9-52b0706cf13a"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/802d99ef-296e-4d43-8ec7-91a53729fc8b/space/f01f69b0-7964-46d7-b6a9-52b0706cf13a",
+		"AppId": "com.patterson.b01.ssam2410.test",
+		"Destination": [
+			"DEST_SAM2410_ONLINE_PPROP",
+			"DEST_SAM2410_PPROP",
+			"MIRATA_ODATA_API"
+		]
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}

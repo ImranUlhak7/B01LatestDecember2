@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/Nov 20/SAPAssetManager/.build/SAPAssetManager/.build/uploadBundle.zip

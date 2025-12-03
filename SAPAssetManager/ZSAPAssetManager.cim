@@ -1,0 +1,31 @@
+{
+	"ProjectName": "ZSAPAssetManager",
+	"ApplicationName": "ZSAPAssetManager",
+	"ComponentVersion": "1",
+	"IntegrationPoints": [
+		{
+			"Source": "/ZSAPAssetManager/Pages/ZOverview.page",
+			"Target": "/SAPAssetManager/Pages/Overview.page"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Pages/SideMenuDrawer.page",
+			"Target": "/SAPAssetManager/Pages/SideMenuDrawer.page"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Rules/OverviewPage/MyWorkSection/MyWorkSectionQueryOption.js",
+			"Target": "/SAPAssetManager/Rules/OverviewPage/MyWorkSection/MyWorkSectionQueryOption.js"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Rules/QAB/ZQABSettings.js",
+			"Target": "/SAPAssetManager/Rules/QAB/QABSettings.js"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Rules/QAB/ZEquipmentFunctionalLocationQABSettings.js",
+			"Target": "/SAPAssetManager/Rules/QAB/EquipmentFunctionalLocationQABSettings.js"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Rules/OverviewPage/ZOverviewQABSettings.js",
+			"Target": "/SAPAssetManager/Rules/OverviewPage/OverviewQABSettings.js"
+		}
+	]
+}
